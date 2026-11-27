@@ -1,0 +1,58 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code related
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+build/
+
+# Android related
+android/.gradle/
+android/local.properties
+android/**/gradle-wrapper.jar.bak
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# iOS/macOS related
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+macos/Pods/
+macos/Flutter/ephemeral/
+
+# Linux/Windows ephemeral
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
+
+# Python virtual environment (if present)
+venv/
+.venv/
+__pycache__/
+
+# Environment
+.env

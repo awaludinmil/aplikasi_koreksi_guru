@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env.bak
+
+# Flask / SQLite
+instance/
+*.db
+*.sqlite3
+migrations/
+
+# Environment variables (JANGAN commit file ini!)
+.env
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log
+
+# Large Machine Learning Model Weights (>100MB)
+*.keras
+*.h5
+*.tflite
+*.pt
+*.pth
